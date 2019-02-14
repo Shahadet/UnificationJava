@@ -1,17 +1,15 @@
 # UnificationJava
-Implementation of Unification Algorithm in Java
 
-/*
- * Instruction to Execute:
+Implementation of Unification Algorithm in Java
+# Instruction to Execute:
  * The program is developed with Java 8. However this code should work with older java version as well.
  * Can be run with command(>javac assign1mha263.java		>java assign1mha263) or with any IDE
  * The program will ask for two separate terms for unification
  * By default the program will show only the final result (with each variable value like prolog)
  * To see the the deduction of each step you need to turn on the log by pressing L or l
  * to exit the program just press e or E
- */
-/*
-    Example of execution(without log):
+
+# Example of execution(without log):
     
     This Program works similar to the unify_with_occurs_check(term1,term2) function of prolog
 	Please enter Term 1: 
@@ -25,9 +23,8 @@ Implementation of Unification Algorithm in Java
 	Z=a(t(m),t(m))
 	
 	yes
-*/
-/*
-    Example of execution(with log):
+
+   # Example of execution(with log):
  	Type E to exit,L for turning on Log or press enter to continue
 	l
 	*****Log Printing Enabled*****
@@ -57,11 +54,9 @@ Implementation of Unification Algorithm in Java
 	Z=a(t(m),t(m))
 	
 	yes
- */
 
-/*	
- * Other checking (for Bonus Marking :) ):
+# Other checking :
  * 1. Parenthesis check given. If parenthesis is not well formed program will indicate the place or error. 
  * 2. Variable,constant,function may consist of multiple character.
  * 3. Produce error(indicates position), if function name starts with capital letter.
- */
+
